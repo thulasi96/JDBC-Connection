@@ -17,7 +17,7 @@ public class JdbcConnection {
 			Statement statement = connect.createStatement();
 
 			//Adding Values in Table
-			statement.executeUpdate("insert into user(UserID,LastName,FirstName)VALUES('2','thulasi','raman');");
+			//statement.executeUpdate("insert into user(UserID,LastName,FirstName)VALUES('2','thulasi','raman');");
 			//executeQuery() method of Statement interface is used to execute queries to the database.
 			ResultSet result = statement.executeQuery("select * from user");
 			
